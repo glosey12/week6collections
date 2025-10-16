@@ -89,7 +89,7 @@ public class ArrayCollection<T> implements CollectionInterface<T> {
         return (numElements == 0);
     }
 
-    public int size() {
+    public Integer size() {
         // Returns the number of elements in this collection.
         return numElements;
     }
